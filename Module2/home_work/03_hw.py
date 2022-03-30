@@ -31,3 +31,11 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+n = float(input("Введите цену единицы товара: "))
+i = 1
+x = n
+while i <= 20:
+    print(i," ", x, " Rub.")
+    x = n + x
+    i = i + 1
