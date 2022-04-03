@@ -9,18 +9,10 @@
 
 # TODO: your code here
 n = int(input("Введите кол-во коров: "))
-a = "корова"
-b = "коровы"
-c = "коров"
-
-x = n % 10
-if x==0 or n>=5 and n<=20:
-    print("На лугу пасется", n, c)
-elif x>=5 and x<=9:
-    print("На лугу пасется", n, c)
-elif x>=2 and x<=4:
-    print("На лугу пасется", n, b)
-elif x==1:
-    print("На лугу пасется", n, a)
-else:
-    print("На лугу нет коров")
+if 11 <= n % 100 <= 20:
+#    print(n, " коров")
+#elif n % 10 == 1:
+#    print(n, " корова")
+#elif 1 < n % 10 < 5:
+#    print(n, " коровы")
+#else:
