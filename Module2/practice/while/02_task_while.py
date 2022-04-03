@@ -3,3 +3,8 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+text = ""
+
+while text != "хватит":
+    print(text)
+    text = input("Введите значение: ")
