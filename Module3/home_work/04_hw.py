@@ -5,3 +5,15 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+
+res_nam_q = []
+sqrt = 0
+nambers = [2, -5, 8, 9, -25, 25, 4]
+for namber in nambers:
+    i = 0
+    if namber > 0 and namber ** 0.5 % 1 == 0:
+        sqrt = namber ** (0.5)
+        # res_nam_q = res_nam_q.append(sqrt)
+        res_nam_q.append(int(namber ** 0.5))
+        i+=1
+print(res_nam_q)
