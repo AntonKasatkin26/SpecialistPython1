@@ -4,7 +4,15 @@
 def average(*args):
     # TODO: your code here
     pass
-
+def average(*args):
+    # TODO: your code here
+    count = 0
+    i = 0
+    for el in args:
+        count = count + el
+        i += 1
+    res = count / i
+    return res
 
 print(average(3, 4, 8))
 print(average(1, 4, 5, -3, 8, 4))
